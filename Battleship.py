@@ -17,8 +17,8 @@ print(Fore.RED + """
       + Fore.RESET)
 
 while (Rows > 9) or (Columns > 9) or (Rows <= 0) or (Columns <= 0):
-    Rows = int(input(Fore.GREEN + "Enter the number of rows you want: " + Fore.RESET))
-    Columns = int(input(Fore.GREEN + "Enter the number of columns you want: " + Fore.RESET))
+    Rows = int(input(Fore.GREEN + "Enter the number of rows: " + Fore.RESET))
+    Columns = int(input(Fore.GREEN + "Enter the number of columns: " + Fore.RESET))
     print("\n")
 
 def create_grid(Rows, Columns):
