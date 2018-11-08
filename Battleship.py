@@ -16,7 +16,7 @@ print(Fore.RED + """
 """
       + Fore.RESET)
 
-while (Rows > 9) or (Columns > 10) or (Rows <= 0) or (Columns <= 0):
+while (Rows > 9) or (Columns > 9) or (Rows <= 0) or (Columns <= 0):
     Rows = int(input(Fore.GREEN + "Enter the number of rows you want: " + Fore.RESET))
     Columns = int(input(Fore.GREEN + "Enter the number of columns you want: " + Fore.RESET))
     print("\n")
