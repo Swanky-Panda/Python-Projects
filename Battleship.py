@@ -67,7 +67,7 @@ while (turns != 5):
 
     if (GuessRow == ShipRow) and (GuessColumn == ShipColumn):
         turns += 1
-        print(Fore.CYAN + "\nYou hit the battleship! Congratulations!\n" + Fore.RESET)
+        print(Fore.CYAN + "\nYou hit the battleship! It was at: (" + str(ShipRow) + ", " + str(ShipColumn) + ")\n" + Fore.RESET)
         update_gridHit(grid, GuessRow, GuessColumn)
         display_grid(grid, Columns)
         break
