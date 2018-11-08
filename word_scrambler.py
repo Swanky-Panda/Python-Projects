@@ -20,7 +20,7 @@ while play == "yes":
     # pick one word randomly from the sequence
     word = random.choice(words)
 
-    # create a variable to use later to see if the guess is correct
+    # create variable checking if guess is correct
     correct = word
 
     # create a scrambled version of the word
